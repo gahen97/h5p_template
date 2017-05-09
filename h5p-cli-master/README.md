@@ -1,4 +1,4 @@
-to run server, navigate to lib and enter the following command
+to run server, navigate to lib and enter the following command: 
 node ../bin/h5p-cli server
 
 ## Martin's edits:
