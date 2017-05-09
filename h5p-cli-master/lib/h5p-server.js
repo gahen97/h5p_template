@@ -1,4 +1,4 @@
-console.log("server from downloadsdgsdf");
+console.log("server from /lib");
 var http = require('http');
 var dispatcher = require('httpdispatcher');
 var fs = require('fs');
