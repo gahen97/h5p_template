@@ -77,14 +77,14 @@
           margin-right: 3em;
           border: 2px solid rgb(204,0,51); /* CU red */ 
           width: 150px;
-          height: 15px;
+          height: 16px;
           display: inline-block;
       }
       div.textin {
       	  display: inline-block;
       }
       span.checkmark {
-          font-size: 200%;
+       	  font-size: 200%;
       }
       ul.new{
       	display: inline-block;
