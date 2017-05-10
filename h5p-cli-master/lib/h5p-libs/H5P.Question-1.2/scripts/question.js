@@ -1020,7 +1020,6 @@ H5P.Question = (function ($, EventDispatcher, JoubelUI) {
         cancelText: options.l10n.cancelLabel,
         confirmText: options.l10n.confirmLabel
       });
-
       // Determine parent element
       if (options.$parentElement) {
         confirmationDialog.appendTo(options.$parentElement.get(0));

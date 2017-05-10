@@ -142,11 +142,11 @@ app.get("/ssetExercise", function(req,res){
 
       var h5pContainer;
 //      if (self.mainLibrary.displayUsingIframe()) {
-      h5pContainer = '<div class="h5p-iframe-wrapper"><iframe id="h5p-iframe-1" class="h5p-iframe" data-content-id="1" style="height:1px" src="about:blank" frameBorder="0" scrolling="no"></iframe></div></div>';
+      h5pContainer = '<div class="h5p-iframe-wrapper"> <iframe id="h5p-iframe-1" class="h5p-iframe" data-content-id="1" style="height:1px; margin-bottom:1px" src="about:blank" frameBorder="0" scrolling="no"></iframe> </div>';
 
 // new code
       var exercise;
-      exercise = '<div><iframe style="height:1000px; padding-left:50; margin-left:10cm; width:900px" src="/assets/exercise/exercise.html" frameBorder="0" scrolling="no"></iframe></div>';
+      exercise = '<div ><iframe style="height:1000px; padding-left:50; margin-top:40px; width:900px" src="/assets/exercise/exercise.html" frameBorder="0" scrolling="no"></iframe></div>';
 //till here
 
   /*    }

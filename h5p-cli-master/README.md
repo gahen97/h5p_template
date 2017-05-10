@@ -1,5 +1,14 @@
-to run server, navigate to lib and enter the following command: 
-node ../bin/h5p-cli server
+
+## Gahen's edits:
+to run server, navigate to lib and enter the following command: node ../bin/h5p-cli server.
+
+Fixed the exercise section of the html so that it moves with the video as it resizes.
+
+Included the ConfirmationDialog library manually, for the first MCQ to work.
+
+Edited some of the pre-existing code in this library, wouldn't run otherwise. Edit is in "h5p-cli-master/lib/h5p-libs/H5P.ConfirmationDialog-1.0/scripts/confirmation-dialog.js", "$wrapper.get(0)" changed to "$wrapper"
+
+
 
 ## Martin's edits:
 to run: 
