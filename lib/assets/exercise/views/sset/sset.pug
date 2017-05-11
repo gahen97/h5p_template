@@ -3,7 +3,7 @@ tr(id="row" + index,data-index=index)
     -if (typeof(addElem) !== 'undefined'){
       | add(
       div(style="border:2px solid DarkTurquoise; width:17px; height:17px; display:inline-block; margin-left:2px; margin-right:2px; text-align:center")
-        div(id="new" + index, class="element newItem")= addElem
+        div(id="new" + index, class="element newItem pointer")= addElem
       | );
     -} else if (typeof(removeElem) !== 'undefined'){
       | remove(
@@ -25,7 +25,7 @@ tr(id="reset" + index, class="hidden")
     -if (typeof(addElem) !== 'undefined'){
       | add(
       div(style="border:2px solid DarkTurquoise; width:15px; height:15px; display:inline-block; margin-left:2px; margin-right:2px; text-align:center")
-        div(id="new" + index, class="element newItem")= addElem
+        div(id="new" + index, class="element newItem pointer")= addElem
       | );
     -} else if (typeof(removeElem) !== 'undefined'){
       | remove(
