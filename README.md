@@ -1,12 +1,37 @@
 
 ## Gahen's edits:
+
 to run server, navigate to lib and enter the following command: node ../bin/h5p-cli server.
 
 Fixed the exercise section of the html so that it moves with the video as it resizes.
 
-Included the ConfirmationDialog library manually, for the first MCQ to work.
+Included the ConfirmationDialog library manually.
 
 Edited some of the pre-existing code in this library, wouldn't run otherwise. Edit is in "/lib/h5p-libs/H5P.ConfirmationDialog-1.0/scripts/confirmation-dialog.js", "$wrapper.get(0)" changed to "$wrapper"
+
+
+# Instructions to update template
+Download your h5p interactive video from the h5p website
+
+Extract the 'content' folder from the downloaded zip file into h5p_template/lib/h5p-content/InteractiveVideo
+
+
+# Instructions to add exercise
+There already exists a SortedSet exercise in this webpage.
+
+To change the exercise, navigate to h5p_template/lib/assets/exercise 
+
+Replace all the content with the required files
+
+Make sure the html file is present in this folder, and is named "exercise.html"
+
+
+# Node installation requirements:
+The following node modules should already be included in the h5p_template folder:
+
+archiver, httpdispatcher, express, node.extend, body-parser, pug, collections, request, tar-fs
+
+To install a module (in case of deletion), navigate to the h5p_template folder, type "npm install " and then the module name. Example, to install archiver, "npm install archiver"
 
 
 
