@@ -13,7 +13,7 @@ Edited some of the pre-existing code in this library, wouldn't run otherwise. Ed
 #### Instructions to update template
 Download your h5p interactive video from the h5p website
 
-Extract the 'content' folder from the downloaded zip file into h5p_template/lib/h5p-content/InteractiveVideo
+Extract the 'content' folder from the downloaded zip file into h5p_template/lib/h5p-content/InteractiveVideo. **Note: the server will not work without this folder present!**
 
 
 #### Instructions to add exercise
