@@ -17,7 +17,7 @@ Extract the 'content' folder from the downloaded zip file into h5p_template/lib/
 
 
 #### Instructions to add exercise
-There already exists a SortedSet exercise in this webpage.
+There already exists a SortedSet exercise in this webpage (SortedSet exercise implemented by Sean Hodges).
 
 To change the exercise, navigate to h5p_template/lib/assets/exercise 
 
@@ -31,7 +31,7 @@ The following node modules should already be included in the h5p_template folder
 
 archiver, httpdispatcher, express, node.extend, body-parser, pug, collections, request, tar-fs
 
-To install a module (in case of deletion), navigate to the h5p_template folder, type "npm install " and then the module name. Example, to install archiver, "npm install archiver"
+To install a module (in case of deletion), navigate to the h5p_template folder using the terminal, type "npm install " and then the module name. For example to install archiver, "$ npm install archiver"
 
 
 
